@@ -1,0 +1,5 @@
+# TODO
+
+Plots:
+    average bike rentals by hour/daytime/temperature_type
+    

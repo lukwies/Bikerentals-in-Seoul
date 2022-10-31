@@ -1,0 +1,4 @@
+data:
+  csv_raw: '../data/raw/bike_rentals.csv'
+  csv_cleaned: '../data/clean/bike_rentals_clean.csv'
+
