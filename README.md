@@ -10,9 +10,8 @@ The dataset contains weather information (Temperature, Humidity, Windspeed, Visi
 
 ## Buisness Questions
 
-    * What is the average bike rental amount ?
-    * Does the bike rental amount depend on weather situation (temperature, snowfall, ...) ?
-    * Does the bike rental amount depend on the season (Summer, Winter, ...) ?
+    * Which impact has the weather (temperature, rain, snow, ...) on bike renting?
+    * Which impact has the season (Spring, Summer, Autumn, Winter) on bike renting?
     * Are there more bike rentals on holidays?
 
 
