@@ -1,5 +1,3 @@
-![img] (file://data/img/bikes_in_corea.jpg)
-
 # Bikesharing in Seoul (South Corea)
 
 Currently Rental bikes are introduced in many urban cities for the enhancement of mobility comfort.
