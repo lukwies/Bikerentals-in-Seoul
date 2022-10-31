@@ -1,3 +1,5 @@
+![img] (https://c7.alamy.com/comp/J0GGX6/bicycles-parked-around-gyeongju-market-south-korea-J0GGX6.jpg)
+
 # Bikesharing in Seoul (South Corea)
 
 Currently Rental bikes are introduced in many urban cities for the enhancement of mobility comfort.
@@ -11,7 +13,8 @@ The dataset contains weather information (Temperature, Humidity, Windspeed, Visi
 ## Buisness Questions
 
     * What is the average bike rental amount ?
-    * What is the average bike rental amount depending on the weather (temperature, snowfall) ?
+    * Does the bike rental amount depend on weather situation (temperature, snowfall, ...) ?
+    * Does the bike rental amount depend on the season (Summer, Winter, ...) ?
     * Are there more bike rentals on holidays?
 
 
@@ -21,4 +24,5 @@ The dataset contains weather information (Temperature, Humidity, Windspeed, Visi
     * The average rental amount is less if temperature is < 3°C
 
 ## Prediction
+
     * Can we predict the amount of bikes rented for a given day?
