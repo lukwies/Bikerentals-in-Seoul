@@ -1,4 +1,4 @@
-![img] (https://c7.alamy.com/comp/J0GGX6/bicycles-parked-around-gyeongju-market-south-korea-J0GGX6.jpg)
+![img] (file://data/img/bikes_in_corea.jpg)
 
 # Bikesharing in Seoul (South Corea)
 
