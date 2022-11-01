@@ -2,3 +2,6 @@ data:
   csv_raw: '../data/raw/bike_rentals.csv'
   csv_cleaned: '../data/clean/bike_rentals_clean.csv'
 
+testsplit:
+  random_state: 2
+  test_size: 0.2

@@ -1,4 +1,4 @@
-<img width="250" src="../data/img/bikes.png">
+<img width="250" src="https://raw.githubusercontent.com/lukwies/mid-bootcamp-project/main/data/img/bikes.png">
 
 ---
 
@@ -25,8 +25,9 @@ The dataset contains weather information (Temperature, Humidity, Windspeed, Visi
 
 
 ## Hypothesis
-    * The average rental amount is higher on weekends.
-    * The average rental amount is less if temperature is < 3°C
+    * The average rental amount is higher on holidays
+    * The average rental amount is less if weather is cold (< 10°C)
+    * The average rental amount is higher at day (8°°-19°°)
 
 ## Prediction
     * Can we predict the amount of bikes rented for a given day?
