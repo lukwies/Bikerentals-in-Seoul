@@ -19,15 +19,17 @@ The dataset contains weather information (Temperature, Humidity, Windspeed, Visi
 
 
 ## Buisness Questions
-    * Which impact has the weather (temperature, rain, snow, ...) on bike renting?
     * Which impact has the season (Spring, Summer, Autumn, Winter) on bike renting?
+    * Which impact has the daytime on bike renting?
+    * Which impact has the weather (temperature, rain, snow, ...) on bike renting?
     * Are there more bike rentals on holidays?
 
-
 ## Hypothesis
-    * The average rental amount is higher on holidays
-    * The average rental amount is less if weather is cold (< 10°C)
-    * The average rental amount is higher at day (8°°-19°°)
+     1. The daily rental amount differs from 400 bikes/hour.
+     2. We have a higher rental amount while holidays.
+     3. The average rental amount is less if weather is cold (< 10°C)
+     4. The average rental amount is higher at day (8°°-19°°) than at night.
 
 ## Prediction
     * Can we predict the amount of bikes rented for a given day?
+
