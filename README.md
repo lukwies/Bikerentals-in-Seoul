@@ -1,14 +1,13 @@
 <img width="250" src="https://raw.githubusercontent.com/lukwies/mid-bootcamp-project/main/data/img/bikes.png">
 
----
 
 # Bikesharing in Seoul (South Corea)
 
----
 
 ## Sources
  * Data: https://archive.ics.uci.edu/ml/datasets/Seoul+Bike+Sharing+Demand
  * Image: https://global.chinadaily.com.cn/a/201801/25/WS5a69cab3a3106e7dcc136a6d.html
+
 
 ## Info
 Currently Rental bikes are introduced in many urban cities for the enhancement of mobility comfort.
