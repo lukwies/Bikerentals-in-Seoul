@@ -35,8 +35,9 @@ We also want to verify some hypothesis our chief was claiming.
      3. The average rental amount is less if weather is cold (< 10°C)
      4. The average rental amount is higher at day (8°°-19°°) than at night.
 
+All hypothesis tests can be found 
 <a href='https://github.com/lukwies/mid-bootcamp-project/blob/main/notebooks/hypothesis_test.ipynb'>
-notebooks/hypothesis_test.ipynb</a>
+here</a>
 
 ## Prediction
 
