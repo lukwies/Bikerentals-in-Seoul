@@ -37,7 +37,7 @@ We also want to verify some hypothesis our chief was claiming.
 
 All hypothesis tests can be found 
 <a href='https://github.com/lukwies/mid-bootcamp-project/blob/main/notebooks/hypothesis_test.ipynb'>
-here</a>
+here</a>.
 
 ## Prediction
 
@@ -45,7 +45,7 @@ here</a>
 
 The code for predicting the rental amount can be found
 <a href='https://github.com/lukwies/mid-bootcamp-project/blob/main/notebooks/hypothesis_test.ipynb'>
-here</a>
+here</a>.
 
 ## Data Attributes
 
@@ -65,6 +65,11 @@ here</a>
   Holiday - Holiday/No holiday
   Functional Day - NoFunc(Non Functional Hours), Fun(Functional hours)
 </pre>
+
+The data source file can be found
+You can view the uncleaned raw data file 
+<a href='https://github.com/lukwies/mid-bootcamp-project/blob/main/data/raw/bike_rentals.csv'>
+here</a>.
 
 ## Sources
  * Data: https://archive.ics.uci.edu/ml/datasets/Seoul+Bike+Sharing+Demand
