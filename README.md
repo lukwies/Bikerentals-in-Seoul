@@ -66,8 +66,7 @@ here</a>.
   Functional Day - NoFunc(Non Functional Hours), Fun(Functional hours)
 </pre>
 
-The data source file can be found
-You can view the uncleaned raw data file 
+The (uncleaned) raw data file can be found 
 <a href='https://github.com/lukwies/mid-bootcamp-project/blob/main/data/raw/bike_rentals.csv'>
 here</a>.
 
