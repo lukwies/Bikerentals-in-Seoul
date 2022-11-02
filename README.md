@@ -43,6 +43,10 @@ here</a>
 
     * Can we predict the amount of bikes rented for a given day/hour?
 
+The code for predicting the rental amount can be found
+<a href='https://github.com/lukwies/mid-bootcamp-project/blob/main/notebooks/hypothesis_test.ipynb'>
+here</a>
+
 ## Data Attributes
 
 <pre>
