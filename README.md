@@ -73,4 +73,6 @@ here</a>.
  * Image: https://global.chinadaily.com.cn/a/201801/25/WS5a69cab3a3106e7dcc136a6d.html
 
 ## Conclusions
- * todo
+	* The highest rental amount can be found in june on fridays around 6:00pm when the temperature is ~27°C.
+	* The result of the hypothesis tests was 1=False, 2=False, 3=True, 4=True
+
