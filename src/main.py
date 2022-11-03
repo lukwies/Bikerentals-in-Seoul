@@ -54,21 +54,28 @@ def encode_and_scale(config, X, y):
 	'''
 	with open(config['encoder']['onehot'], 'rb') as file:
 		ohe = pickle.load(file)
-	with open(config['scaler']['minmax'], 'rb') as file:
-		minmax = pickle.load(file)
-	with open(config['scaler']['standard'], 'rb') as file:
-		standard = pickle.load(file)
 
 	X_cat     = X.select_dtypes(object)
 	X_cat_enc = ohe.transform(X_cat).toarray()
-	X_cat_enc = pd.DataFrame(X_cat_enc, columns=X_cat.columns)
+	X_cat_enc = pd.DataFrame(X_cat_enc, columns=ohe.get_feature_names_out())
+
+	print(X_cat_enc.head())
+
+
+	with open(config['scaler']['minmax'], 'rb') as file:
+		minmax = pickle.load(file)
 
 	X_num        = X.select_dtypes(np.number)
 	X_num_scaled = minmax.transform(X_num)
-	X_num_scaled = standard.transform(X_num)
+
+
+	with open(config['scaler']['standard'], 'rb') as file:
+		standard = pickle.load(file)
+
+	X_num_scaled = standard.transform(X_num_scaled)
 	X_num_scaled = pd.DataFrame(X_num_scaled, columns=X_num.columns)
 
-	X = pd.concat([X_num_scaled, X_cat_enc], axis=1)
+	X = pd.concat([X_cat_enc, X_num_scaled], axis=1)
 
 	return X,y
 
@@ -103,8 +110,14 @@ if __name__ == '__main__':
 		config = yaml.safe_load(file)
 
 	df = load_and_clean_data(sys.argv[1])
+
+	print(df.head())
+
 	X,y = split_X_y(df)
 	X,y = encode_and_scale(config, X, y)
+
+	print(X.head())
+
 	y_pred,score = apply_model(config, X, y)
 
 	print(f"Score: {score}")
