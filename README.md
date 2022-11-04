@@ -12,6 +12,9 @@ The dataset contains weather information (Temperature, Humidity, Windspeed, Visi
 Solar radiation, Snowfall, Rainfall), the number of bikes rented per hour and date information.
 For a detailed description of the dataset, [click here](#Data-Attributes).
 
+## Sources
+	* Data: https://archive.ics.uci.edu/ml/datasets/Seoul+Bike+Sharing+Demand
+	* Image: https://global.chinadaily.com.cn/a/201801/25/WS5a69cab3a3106e7dcc136a6d.html
 
 ## Business Questions
 
@@ -68,11 +71,10 @@ The (uncleaned) raw data file can be found
 <a href='https://github.com/lukwies/mid-bootcamp-project/blob/main/data/raw/bike_rentals.csv'>
 here</a>.
 
-## Sources
- * Data: https://archive.ics.uci.edu/ml/datasets/Seoul+Bike+Sharing+Demand
- * Image: https://global.chinadaily.com.cn/a/201801/25/WS5a69cab3a3106e7dcc136a6d.html
 
 ## Conclusions
 	* The highest rental amount can be found in june on fridays around 6:00pm when the temperature is ~27°C.
 	* The result of the hypothesis tests was 1=False, 2=False, 3=True, 4=True
 
+## Presentation
+	* https://public.tableau.com/app/profile/lara.falkensteiner/viz/SeoulBikeRental_16674852800210/SeoulBikeRentals
