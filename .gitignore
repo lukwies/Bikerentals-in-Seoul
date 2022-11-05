@@ -1,4 +1,5 @@
 conda-env/
+requirements.in
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
