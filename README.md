@@ -1,4 +1,4 @@
-<img width="250" src="https://raw.githubusercontent.com/lukwies/mid-bootcamp-project/main/data/img/bikes.png">
+k<img width="250" src="https://raw.githubusercontent.com/lukwies/mid-bootcamp-project/main/data/img/bikes.png">
 
 
 # Bikesharing in Seoul (South Corea)
@@ -13,8 +13,8 @@ Solar radiation, Snowfall, Rainfall), the number of bikes rented per hour and da
 For a detailed description of the dataset, [click here](#Data-Attributes).
 
 ## Sources
-	* Data: https://archive.ics.uci.edu/ml/datasets/Seoul+Bike+Sharing+Demand
-	* Image: https://global.chinadaily.com.cn/a/201801/25/WS5a69cab3a3106e7dcc136a6d.html
+Data: https://archive.ics.uci.edu/ml/datasets/Seoul+Bike+Sharing+Demand<br>
+Image: https://global.chinadaily.com.cn/a/201801/25/WS5a69cab3a3106e7dcc136a6d.html
 
 ## Business Questions
 
@@ -73,8 +73,12 @@ here</a>.
 
 
 ## Conclusions
+
 	* The highest rental amount can be found in june on fridays around 6:00pm when the temperature is ~27°C.
-	* The result of the hypothesis tests was 1=False, 2=False, 3=True, 4=True
+    * On workdays there are more rentals than on weekends and holidays.
+    * It seems that a lot of rental bikes are used to commute.
+    * The result of the hypothesis tests was 1=False, 2=False, 3=True, 4=True
 
 ## Presentation
-	* https://public.tableau.com/app/profile/lara.falkensteiner/viz/SeoulBikeRental_16674852800210/SeoulBikeRentals
+The presentation is made using tableau and can be found <a href='https://public.tableau.com/app/profile/lara.falkensteiner/viz/SeoulBikeRental_16674852800210/SeoulBikeRentals'>here</a>.
+
